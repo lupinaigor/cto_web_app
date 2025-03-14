@@ -1,0 +1,102 @@
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+}
+
+.container h1,
+.container h2 {
+    color: #ff6600;
+    margin-bottom: 18px;
+}
+
+.container p {
+    margin: 12px 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.container p strong {
+    color: #222;
+}
+
+.container input[type="text"],
+.container input[type="number"],
+.container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+.container textarea {
+    height: 160px;
+    resize: vertical;
+}
+
+.container button {
+    padding: 12px 22px;
+    margin: 12px 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button[type="button"] {
+    background-color: #ff6600;
+    color: white;
+}
+
+.container button[type="button"]:hover {
+    background-color: #cc5200;
+}
+
+.container button[type="button"].cancel {
+    background-color: #757575;
+}
+
+.container button[type="button"].cancel:hover {
+    background-color: #5a5a5a;
+}
+
+.container button[type="button"].delete {
+    background-color: #e63946;
+    color: white;
+}
+
+.container button[type="button"].delete:hover {
+    background-color: #c82333;
+}
+
+.editForm {
+    margin-top: 22px;
+    padding: 22px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.editForm h2 {
+    margin-top: 0;
+}
+
+.productDetails {
+    margin-top: 22px;
+    padding: 22px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.productDetails button {
+    margin-right: 12px;
+}
